@@ -50,4 +50,3 @@ WSTAW DO towary (nazwa, kategoria, cena, na_kartki) WARTOSCI ('Sok', 'napoje', 1
 ## Uwagi
 
 - Baza danych dziala w pamieci (in-memory) i resetuje sie po restarcie serwera.
-- Plik public/jaruzelski-placeholder.svg jest placeholderem i powinien zostac podmieniony na wlasne zdjecie.
