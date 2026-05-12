@@ -1,6 +1,6 @@
-# PRL SQL
+# PRL SQL: Cyfrowa ewidencja absurdu. W 100% wygenerowana przez AI, w 100% napędzana kreatywnością ludzkiej głupoty
 
-Gra edukacyjno-rozrywkowa symulujaca baze danych z czasow PRL.
+Gra edukacyjno-rozrywkowa, która przenosi relacyjne bazy danych w realia PRL. Projekt powstał z kolizji algorytmów AI i genialnej ludzkiej niedorzeczności. Zasilany kredytem Gierka, sterowany przez AI, dedykowany Tobie, Obywatelu.
 
 ## Wymagania
 
