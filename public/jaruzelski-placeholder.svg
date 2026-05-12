@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="480" viewBox="0 0 640 480" role="img" aria-label="Teleranek placeholder">
+  <rect width="640" height="480" fill="#e9dec9" />
+  <rect x="20" y="20" width="600" height="440" fill="#d6c8b0" stroke="#756957" stroke-width="4" />
+  <text x="50%" y="46%" text-anchor="middle" font-family="IBM Plex Sans, Arial, sans-serif" font-size="26" fill="#3c342c">Teleranek</text>
+  <text x="50%" y="56%" text-anchor="middle" font-family="IBM Plex Sans, Arial, sans-serif" font-size="14" fill="#3c342c">Wstaw lokalne zdjecie Jaruzelskiego</text>
+</svg>

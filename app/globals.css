@@ -1,0 +1,65 @@
+@import "tailwindcss";
+
+:root {
+  --paper: #d8d1c1;
+  --paper-edge: #bfb6a6;
+  --ink: #1f1c16;
+  --muted: #615a4f;
+  --accent: #4f5d3b;
+  --accent-strong: #3b472b;
+  --panel: #eee6d7;
+  --panel-strong: #e1d7c6;
+  --highlight: #f4edde;
+  --danger: #8f1f1f;
+}
+
+@theme inline {
+  --color-paper: var(--paper);
+  --color-paper-edge: var(--paper-edge);
+  --color-ink: var(--ink);
+  --color-muted: var(--muted);
+  --color-accent: var(--accent);
+  --color-accent-strong: var(--accent-strong);
+  --color-panel: var(--panel);
+  --color-panel-strong: var(--panel-strong);
+  --color-highlight: var(--highlight);
+  --color-danger: var(--danger);
+  --font-sans: var(--font-plex-sans);
+  --font-mono: var(--font-plex-mono);
+}
+
+@keyframes rise {
+  from {
+    opacity: 0;
+    transform: translateY(12px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+body {
+  min-height: 100%;
+  background:
+    radial-gradient(
+      1200px 600px at 10% -10%,
+      rgba(255, 255, 255, 0.35),
+      transparent 60%
+    ),
+    radial-gradient(
+      800px 500px at 90% 0%,
+      rgba(255, 255, 255, 0.18),
+      transparent 55%
+    ),
+    repeating-linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 0.04),
+      rgba(0, 0, 0, 0.04) 1px,
+      transparent 1px,
+      transparent 4px
+    ),
+    var(--paper);
+  color: var(--ink);
+  font-family: var(--font-sans);
+}
